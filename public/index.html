@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>IPL Players</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="heading">
+            Indian Premier League Players Along with their price paid
+        </div>
+        <div class="search-bar">
+            <input type="text" id="value" onkeyup="suggestions()">
+            <select id="options" onchange="teamPlayers()">
+              
+            </select>
+            <button id="search" onclick="searchPlayer()"> Search </button>
+        </div>
+        <div id="suggestion">
+        </div>
+        <div id="players">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
