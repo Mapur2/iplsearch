@@ -78,6 +78,21 @@ button {
 .main{
     margin-bottom: 80px;
 }
+
+#credits {
+    height: 30px;
+    background-color: aquamarine;
+    text-align: center;
+    width: 20vmax;
+    margin: 10px;
+    
+}
+#credits a{
+    text-decoration: none;
+}
+#credits a:hover{
+    cursor: crosshair;
+}
 @media (max-width:650px) {
     .player{
         width: 50%;
